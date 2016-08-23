@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="call.quiamco.com.makeaphonecall">
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/h"
+        android:label="One Click Away."
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity" />
+        <activity android:name=".AlarmClock" />
+
+        <receiver android:name=".Receiver" />
+
+        <service
+            android:name="RingtonePlaying"
+            android:enabled="true"></service>
+
+     <!--<activity android:name=".RingtonePlaying"></activity>-->
+    </application>
+
+</manifest>

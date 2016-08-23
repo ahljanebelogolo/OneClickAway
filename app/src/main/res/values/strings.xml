@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Make a Phone Call</string>
+
+
+
+    <string-array name="music_array">
+        <item>Pick alarm sound!</item>
+        <item>All in My Head</item>
+        <item>Ease</item>
+        <item>Expensive</item>
+        <item>Fools</item>
+        <item>Hell Nos and Headphones</item>
+        <item>Into You</item>
+        <item>Love Myself</item>
+        <item>Moonlight</item>
+        <item>Out of Thee Woods</item>
+        <item>Paper Hearts</item>
+        <item>Style</item>
+        <item>Tattooed Heart</item>
+        <item>Want to Want Me</item>
+        <item>Wild</item>
+
+    </string-array>
+
+
+</resources>
